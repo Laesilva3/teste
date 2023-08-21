@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+
+}
+
+.nivel {
+
+    color: red;
+
+}
+
+.centro {
+
+    padding: 5% 15%;     
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sessao {
+
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.fonte {
+
+    font-size: 36px;
+    font-family: Krona One, sans-serif;
+
+}
+
+.fontetexto {
+
+font-size: 24px;
+font-family: 'Montserrat', sans-serif;;
+
+}
+
+.botao {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.botaoum {
+
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid red;
+    /*color: white;*/
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.botaoum:hover {
+
+    background-color: red;
+    color: black;
+
+}
+
+
+.redes {
+
+    font-family: Krona One, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+
+.rodape {
+
+    color: black;
+    background-color: red;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.inicio {
+
+    padding: 2% 0% 0% 15%;
+
+}
+
+.navegue {
+
+    display: flex;
+    gap: 80px;
+
+}
+
+.home {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+    text-decoration: none;
+
+}
